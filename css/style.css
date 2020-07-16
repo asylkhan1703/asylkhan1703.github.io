@@ -27,6 +27,7 @@ body {
 }
 a {
     color: #fff;
+    text-decoration: none;
 }
 .button:hover {
     background-color: #fff;
