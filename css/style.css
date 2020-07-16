@@ -25,7 +25,13 @@ body {
     outline: none;
     border: none;
 }
+a {
+    color: #fff;
+}
 .button:hover {
     background-color: #fff;
+    color: #000;
+}
+a:hover {
     color: #000;
 }
