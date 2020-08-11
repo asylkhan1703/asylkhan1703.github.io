@@ -7,37 +7,38 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
 
-    <div class="header">
+    <header class="header">
         <div class="container">
             <nav>
                 <ul class="header__menu">
                     <li class="header__item">
-                        <div class="header__underline header__underline-1"></div>Главная
+                        <div class="header__underline header__underline-1"></div><a href="#promo">Главная</a>
                     </li>
                     <li class="header__item">
-                        <div class="header__underline header__underline-2"></div>Услуги
+                        <div class="header__underline header__underline-2"></div><a href="#services">Услуги</a>
                     </li>
                     <li class="header__item">
-                        <div class="header__underline header__underline-3"></div>О нас
+                        <div class="header__underline header__underline-3"></div><a href="#about">О нас</a>
                     </li>
                     <li class="header__item">
-                        <div class="header__underline header__underline-4"></div>Контакты
+                        <div class="header__underline header__underline-4"></div><a href="#footer">Контакты</a>
                     </li>
                 </ul>
             </nav>
             <div class="header__underline"></div>
         </div>
-    </div>
+    </header>
 
-    <div class="promo">
+    <div id="promo" class="promo">
         <div class="container">
             <div class="promo__window"></div>
-            <div class="promo__title">Разработка сайтов под ваш бизнес</div>
+            <h1 class="promo__title">Разработка сайтов под ваш бизнес</h1>
             <div class="promo__subtitle">Создаем landing page, интернет-магазины,
                 корпоративные сайты</div>
             <button class="button promo__send">Оставить заявку</button>
@@ -46,7 +47,7 @@
 
     <div class="choice">
         <div class="container">
-            <div class="title">Выберите свой сайт</div>
+            <h2 class="title">Выберите свой сайт</h2>
             <div class="wrapper">
                 <div class="choice__tabs">
                     <button class="button choice__tab active">lANDING PAGE</button>
@@ -65,10 +66,16 @@
                         <div class="choice__advantages">
                             <div class="choice__label green">Преймущества</div>
                             <div class="choice__wrapper">
-                                <div class="choice__fact"><div class="choice__checkout"></div>Высокая эффективность
-                                    в привлечении заявок</div>
-                                <div class="choice__fact"><div class="choice__checkout"></div>Быстрый результат</div>
-                                <div class="choice__fact"><div class="choice__checkout"></div>Быстрая разработка</div>
+                                <div class="choice__fact">
+                                    <div class="choice__checkout"></div>Высокая эффективность
+                                    в привлечении заявок
+                                </div>
+                                <div class="choice__fact">
+                                    <div class="choice__checkout"></div>Быстрый результат
+                                </div>
+                                <div class="choice__fact">
+                                    <div class="choice__checkout"></div>Быстрая разработка
+                                </div>
 
                             </div>
                         </div>
@@ -80,24 +87,31 @@
                                 <div class="choice__fact"><span class="choice__cross"></span>Нельзя показать много
                                     товаров/услуг</div>
                                 <div class="choice__fact"><span class="choice__cross"></span>Не подходит для SEO</div>
-                                    
+
                             </div>
                         </div>
                     </div>
                     <div class="choice__tab-item">
                         <div class="choice__ship">
                             <div class="choice__title">Интернет-магазин</div>
-                            <div class="choice__descr">Позволяет пользователям онлайн сформировать заказ на покупку, выбрать способ оплаты и доставки заказа, оплатить заказ.</div>
+                            <div class="choice__descr">Позволяет пользователям онлайн сформировать заказ на покупку,
+                                выбрать способ оплаты и доставки заказа, оплатить заказ.</div>
                             <button class="button choice__calc">Расчитать стоимость</button>
                         </div>
                         <div class="choice__advantages">
                             <div class="choice__label green">Преймущества</div>
                             <div class="choice__wrapper">
-                                <div class="choice__fact"><div class="choice__checkout"></div>Высокая эффективность
-                                    в масштабировании</div>
-                                <div class="choice__fact"><div class="choice__checkout"></div>Подходит для поискового
-                                продвижения</div>
-                                <div class="choice__fact mb-10"><div class="choice__checkout"></div>Любое количество товаров</div>
+                                <div class="choice__fact">
+                                    <div class="choice__checkout"></div>Высокая эффективность
+                                    в масштабировании
+                                </div>
+                                <div class="choice__fact">
+                                    <div class="choice__checkout"></div>Подходит для поискового
+                                    продвижения
+                                </div>
+                                <div class="choice__fact mb-10">
+                                    <div class="choice__checkout"></div>Любое количество товаров
+                                </div>
 
                             </div>
                         </div>
@@ -105,40 +119,49 @@
                             <div class="choice__label red">Недостатки</div>
                             <div class="choice__wrapper">
                                 <div class="choice__fact"><span class="choice__cross"></span>Ниже эффективность, по
-                                сравнению с лендингом</div>
+                                    сравнению с лендингом</div>
                                 <div class="choice__fact"><span class="choice__cross"></span>Не подходит для
-                                имиджевой рекламы</div>
+                                    имиджевой рекламы</div>
                                 <div class="choice__fact"><span class="choice__cross"></span>Ниже эффективность, по
-                                сравнению с лендингом</div>
+                                    сравнению с лендингом</div>
                             </div>
                         </div>
                     </div>
                     <div class="choice__tab-item">
                         <div class="choice__ship">
                             <div class="choice__title">Корпоративный сайт</div>
-                            <div class="choice__descr">Это полноценное представительство компании в интернете и эффективный инструмент для привлечения и удержания новых
-                            клиентов.</div>
+                            <div class="choice__descr">Это полноценное представительство компании в интернете и
+                                эффективный инструмент для привлечения и удержания новых
+                                клиентов.</div>
                             <button class="button choice__calc">Расчитать стоимость</button>
                         </div>
                         <div class="choice__advantages">
                             <div class="choice__label green">Преймущества</div>
                             <div class="choice__wrapper">
-                                <div class="choice__fact"><div class="choice__checkout"></div>Высокая эффективность
-                                    в продвижении</div>
-                                <div class="choice__fact"><div class="choice__checkout"></div>Подходит для имиджевой
-                                рекламы</div>
-                                <div class="choice__fact"><div class="choice__checkout"></div>Возможность самостоятельно
-                                создавать страницы</div>
+                                <div class="choice__fact">
+                                    <div class="choice__checkout"></div>Высокая эффективность
+                                    в продвижении
+                                </div>
+                                <div class="choice__fact">
+                                    <div class="choice__checkout"></div>Подходит для имиджевой
+                                    рекламы
+                                </div>
+                                <div class="choice__fact">
+                                    <div class="choice__checkout"></div>Возможность самостоятельно
+                                    создавать страницы
+                                </div>
                             </div>
                         </div>
                         <div class="choice__disadvantages">
                             <div class="choice__label red">Недостатки</div>
                             <div class="choice__wrapper">
                                 <div class="choice__fact"><span class="choice__cross"></span>Не подходит для
-                                имиджевой рекламы</div>
-                                <div class="choice__fact mb-15"><span class="choice__cross"></span>Ниже эффективность, по
-                                сравнению с лендингом</div>
-                                <div class="choice__fact mb-15"><span class="choice__cross"></span>Не подходит для SEO</div>
+                                    имиджевой рекламы</div>
+                                <div class="choice__fact mb-15"><span class="choice__cross"></span>Ниже эффективность,
+                                    по
+                                    сравнению с лендингом</div>
+                                <div class="choice__fact mb-15"><span class="choice__cross"></span>Не подходит для SEO
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -148,13 +171,101 @@
         </div>
     </div>
 
+    <div id="services" class="services">
+        <div class="container">
+            <h2 class="title">Наши услуги</h2>
+            <div class="services__wrapper">
+                <div class="services__row">
+                    <div class="services__item">
+                        <div class="services__question"></div>
+                        <img src="icons/services-design.svg" alt="design">
+                        <div class="services__subtitle">UI/UX дизайн</div>
+                    </div>
+                    <div class="services__item ml-100 mr-100">
+                        <div class="services__question"></div>
+                        <img src="icons/services-adaptive.svg" alt="adaptive">
+                        <div class="services__subtitle pt-15">Адаптивная
+                            верстка</div>
+                    </div>
+                    <div class="services__item">
+                        <div class="services__question"></div>
+                        <img src="icons/services-CMS.svg" alt="CMS">
+                        <div class="services__subtitle">Внедрение CMS</div>
+                    </div>
+                </div>
+                <div class="services__row">
+                    <div class="services__item">
+                        <div class="services__question"></div>
+                        <img src="icons/services-CRM.svg" alt="CRM">
+                        <div class="services__subtitle">Интеграция CRM</div>
+                    </div>
+                    <div class="services__item">
+                        <div class="services__question"></div>
+                        <img src="icons/services-SEO.svg" alt="SEO">
+                        <div class="services__subtitle">SEO продвижение</div>
+                    </div>
+                    <div class="services__item">
+                        <div class="services__question"></div>
+                        <img src="icons/services-SMM.svg" alt="SMM">
+                        <div class="services__subtitle">SMM маркетинг</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <div id="about"  class="about">
+        <div class="container">
+            <h2 class="title">О нас</h2>
+            <div class="about__slider">
+                <div class="about__slide-item">
+                    <div class="about__img"></div>
+                    <div class="about__label about__label_first">Мы повышаем эффективность бизнеса клиентов
+                        посредством интернет-технологий</div>
+                </div>
+                <div class="about__slide-item">
+                    <div class="about__img"></div>
+                    <div class="about__label about__label_second">Принципы нашей работы — ответственность,
+                        рациональность и увлеченность</div>
+                </div>
+                <div class="about__slide-item">
+                    <div class="about__img"></div>
+                    <div class="about__label about__label_third">Мы ценим доверие наших клиентов
+                        и работаем на результат</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="footer__contacts">
+                <div class="footer__subtitle">Мы находимся</div>
+                <address class="footer__address">Алматы, ул. Тимирязева, 42к3</address>
+                <div class="footer__subtitle">Мы всегда на связи</div>
+                <div class="footer__phone">+7 (999) 999-99-99</div>
+                <div class="footer__email">info@quik.kz</div>
+                <div class="footer__subtitle">Мы в социальных сетях</div>
+                <div class="footer__social">
+                    <span class="footer__icon icon-telegram"></span>
+                    <span class="footer__icon icon-whatsapp"></span>
+                    <span class="footer__icon icon-facebook"></span>
+                </div>
+            </div>
+            <iframe class="footer__map"
+                src="https://yandex.ru/map-widget/v1/?um=constructor%3A8e48cdf2e30f5f318a21619c0dd863a3daba96982d49621f81f583307ab7568a&amp;source=constructor">
+            </iframe>
+            <div class="footer__back"></div>
+        </div>
+    </footer>
 
 
 
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="js/scripts.js"></script>
 </body>
 
