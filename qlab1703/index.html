@@ -6,39 +6,135 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Асылхан Фазылов - фрилансер, веб-разработчик</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
-    <div class="promo">
+    <header class="promo">
         <div class="container">
-            <header class="promo__header">
+            <div class="promo__header">
                 <img src="img/icons/logo.svg" alt="Студия веб разработки QLAB1703" class="promo__logo">
-                <div class="promo__social-links">
-                    <a href="#" class="promo__link"><span class="icon-github"></span></a>
-                    <a href="#" class="promo__link"><span class="icon-twitter"></span></a>
-                    <a href="#" class="promo__link"><span class="icon-instagram"></span></a>
-                    <a href="#" class="promo__link"><span class="icon-facebook"></span></a>
+                <div class="social-links">
+                    <a href="https://vk.com/asylkhan1703" class="social-links__link"><span
+                            class="icon-github"></span></a>
+                    <a href="https://vk.com/asylkhan1703" class="social-links__link"><span
+                            class="icon-twitter"></span></a>
+                    <a href="https://vk.com/asylkhan1703" class="social-links__link"><span
+                            class="icon-instagram"></span></a>
+                    <a href="https://vk.com/asylkhan1703" class="social-links__link"><span
+                            class="icon-facebook"></span></a>
                 </div>
-            </header>
+            </div>
             <div class="promo__content">
                 <div class="promo__left">
-                    <h2 class="promo__subtitle">Фрилансер</h2>
-                    <h1 class="promo__title">Асылхан Фазылов</h1>
-                    <p class="promo__descr">Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать
+                    <h2 class="promo__subtitle animate__animated animate__fadeInRight">Фрилансер</h2>
+                    <h1 class="promo__title animate__animated animate__fadeInRight">Асылхан Фазылов</h1>
+                    <p class="promo__descr animate__animated animate__fadeInRight">Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать
                         дизайн и верстку небольшого сайта или
                         интернет-магазина</p>
-                    <button class="button button_main">Бесплатная консультация</button>
+                    <button class="button">Бесплатная консультация</button>
                 </div>
                 <div class="promo__right">
-                    <img class="promo__img" src="img/avatar.jpg" alt="Веб разработчик сайтов">
+                    <div class="promo__img animate__animated animate__fadeIn animate__delay-1s"></div>
                 </div>
             </div>
         </div>
-    </div>
+    </header>
 
+    <section class="section advantages">
+        <div class="container">
+            <div class="title">Со мной удобно работать</div>
+            <div class="advantages__items">
+                <div class="advantages__item">
+                    <span class="advantages__icon icon-offer-img"></span>
+                    <div class="advantages__subtitle">По договору</div>
+                    <div class="advantages__descr">Предоставлю все документы для бухгалтерии: договоры, счета и акты.
+                        Работаю как ИП без НДС.</div>
+                </div>
+                <div class="advantages__item">
+                    <span class="advantages__icon icon-deadline-img"></span>
+                    <div class="advantages__subtitle">Точно в срок</div>
+                    <div class="advantages__descr">В договоре прописана моя ответственность за срок проекта. Если
+                        просрочу —
+                        плачу неустойку.</div>
+                </div>
+                <div class="advantages__item">
+                    <span class="advantages__icon icon-agreement-img"></span>
+                    <div class="advantages__subtitle">Ценник под вас</div>
+                    <div class="advantages__descr">Если у вас нетиповой проект, сделаю рассчет цены за работу и объясню,
+                        как
+                        складывается цена..</div>
+                </div>
+                <div class="advantages__item">
+                    <span class="advantages__icon icon-steps-img"></span>
+                    <div class="advantages__subtitle">Премежуточные итоги</div>
+                    <div class="advantages__descr">Показываю работу поэтапно, а не в последий момент перед крайним
+                        сроком.
+                    </div>
+                </div>
+                <div class="advantages__item">
+                    <span class="advantages__icon icon-storage-img"></span>
+                    <div class="advantages__subtitle">Хостинг и домен</div>
+                    <div class="advantages__descr">Если мы договорились о цене проекта, в неё входит всё: домен и
+                        хостинг на
+                        год + SSL сертификат.</div>
+                </div>
+                <div class="advantages__item">
+                    <span class="advantages__icon icon-conversation-img"></span>
+                    <div class="advantages__subtitle">Не брошу после сдачи</div>
+                    <div class="advantages__descr">Научу вас или вашего сотрудника пользоваться сайтом, запишу
+                        видео-инструкции.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="title">Свяжитесь со мной</div>
+            <div class="footer__content">
+                <div class="footer__form">
+                    <form action="#" class="form">
+                        <div class="form__subtitle">Можете просто оставить заявку, я позвоню вам сегодня</div>
+                        <input type="text" placeholder='Ваше имя' class="form__input form__name">
+                        <input type="text" placeholder='Ваш телефон' class="form__input form__phone">
+                        <button class="button">Бесплатная консультация</button>
+                    </form>
+                </div>
+                <div class="footer__contacts">
+                    <div class="footer__phone">
+                        <h3 class="footer__title">Телефон</h3>
+                        <a class="footer__text" href="tel:+77774702838">+7 (777) 470-28-38</a>
+                    </div>
+                    <div class="footer__email">
+                        <h3 class="footer__title">Почта</h3>
+                        <a class="footer__text" href="mailto:asylkhan1703@gmail.com">asylkhan1703@gmail.com</a>
+                    </div>
+                    <div class="footer__social">
+                        <h3 class="footer__title">Соцсети</h3>
+                        <a class="footer__text" href="https://vk.com/asylkhan1703">t.me/asylkhan1703</a>
+                        <a class="footer__text" href="https://vk.com/asylkhan1703">vk.me/asylkhan1703</a>
+                        <a class="footer__text" href="https://vk.com/asylkhan1703">fb.me/asylkhan1703</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://vk.com/asylkhan1703" class="social-links__link"><span
+                                class="icon-github"></span></a>
+                        <a href="https://vk.com/asylkhan1703" class="social-links__link"><span
+                                class="icon-twitter"></span></a>
+                        <a href="https://vk.com/asylkhan1703" class="social-links__link"><span
+                                class="icon-instagram"></span></a>
+                        <a href="https://vk.com/asylkhan1703" class="social-links__link"><span
+                                class="icon-facebook"></span></a>
+                    </div>
+                    <a href="#" class="footer__policy">Политика конфиденциальности</a>
+
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 
