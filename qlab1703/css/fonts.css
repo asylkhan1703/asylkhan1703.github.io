@@ -9,7 +9,6 @@
     font-style: normal;
     font-display: block;
 }
-
 [class^="icon-"],
 [class*=" icon-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
@@ -26,67 +25,68 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-feedback-icon:before {
+.icon-agreement-img:before {
     content: "\e900";
-    color: #0E38B1;
-}
-
-.icon-cost-icon:before {
-    content: "\e901";
-    color: #0E38B1;
-}
-
-.icon-time-icon:before {
-    content: "\e902";
-    color: #0E38B1;
+    color: #0e38b1;
 }
 
 .icon-conversation-img:before {
-    content: "\e903";
-    color: #0E38B1;
+    content: "\e901";
+    color: #0e38b1;
 }
 
-.icon-storage-img:before {
-    content: "\e904";
-    color: #0E38B1;
-}
-
-.icon-steps-img:before {
-    content: "\e905";
-    color: #0E38B1;
-}
-
-.icon-agreement-img:before {
-    content: "\e906";
-    color: #0E38B1;
+.icon-cost-icon:before {
+    content: "\e902";
+    color: #0e38b1;
 }
 
 .icon-deadline-img:before {
-    content: "\e907";
-    color: #0E38B1;
-}
-
-.icon-offer-img:before {
-    content: "\e908";
-    color: #0E38B1;
-}
-
-.icon-github:before {
-    content: "\e909";
-    color: #333333;
-}
-
-.icon-twitter:before {
-    content: "\e90a";
-    color: #333333;
-}
-
-.icon-instagram:before {
-    content: "\e90b";
-    color: #333333;
+    content: "\e903";
+    color: #0e38b1;
 }
 
 .icon-facebook:before {
+    content: "\e904";
+    color: #3a3a3a;
+}
+
+.icon-feedback-icon:before {
+    content: "\e905";
+    color: #0e38b1;
+}
+
+.icon-linkedin:before {
+    content: "\e906";
+    color: #3a3a3a;
+}
+
+.icon-offer-img:before {
+    content: "\e907";
+    color: #0e38b1;
+}
+
+.icon-steps-img:before {
+    content: "\e908";
+    color: #0e38b1;
+}
+
+.icon-storage-img:before {
+    content: "\e909";
+    color: #0e38b1;
+}
+
+.icon-telegram1:before {
+    content: "\e90a";
+    color: #3a3a3a;
+}
+
+.icon-time-icon:before {
+    content: "\e90b";
+    color: #0e38b1;
+}
+
+.icon-whatsup:before {
     content: "\e90c";
-    color: #333333;
+    color: #3a3a3a;
+
 }
